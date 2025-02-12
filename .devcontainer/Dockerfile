@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get -y install software-properties-common && \
     apt-get -y install python3-full
 
-RUN python -m venv /opt/venv
+RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
 COPY ./requirements.txt /app/requirements.txt

@@ -37,7 +37,8 @@
                 "github.vscode-pull-request-github",
                 "ms-python.debugpy",
                 "ms-python.python",
-                "mechatroner.rainbow-csv"
+                "mechatroner.rainbow-csv",
+                "ms-azuretools.vscode-docker"
             ],
 			"settings": {
 				"python.defaultInterpreterPath": "/opt/venv/bin/python",
